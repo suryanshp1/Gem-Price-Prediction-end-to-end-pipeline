@@ -1,0 +1,13 @@
+# Basic .gitattributes for a python repo.
+
+# Source files
+# ============
+*.py     text diff=python
+
+# Binary files
+# ============
+*.pkl    binary
+*.pickle binary
+
+# Jupyter notebook
+*.ipynb  text eol=lf
