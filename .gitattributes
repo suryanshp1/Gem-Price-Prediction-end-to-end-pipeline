@@ -11,3 +11,6 @@
 
 # Jupyter notebook
 *.ipynb  text eol=lf
+
+# Shell scripts require LF
+*.sh    text eol=lf
