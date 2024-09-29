@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Suraj/Desktop/Python/MLOpsProject/mlruns/0/89e0c53c957740d797cf3288d7bcb1e3/artifacts
+end_time: 1727555845729
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 89e0c53c957740d797cf3288d7bcb1e3
+run_name: persistent-fox-293
+run_uuid: 89e0c53c957740d797cf3288d7bcb1e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727555836428
+status: 4
+tags: []
+user_id: Suraj

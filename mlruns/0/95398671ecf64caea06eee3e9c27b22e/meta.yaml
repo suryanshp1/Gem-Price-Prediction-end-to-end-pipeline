@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Suraj/Desktop/Python/MLOpsProject/mlruns/0/95398671ecf64caea06eee3e9c27b22e/artifacts
+end_time: 1727556095056
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 95398671ecf64caea06eee3e9c27b22e
+run_name: tasteful-seal-851
+run_uuid: 95398671ecf64caea06eee3e9c27b22e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727556083218
+status: 4
+tags: []
+user_id: Suraj

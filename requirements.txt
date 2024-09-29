@@ -4,6 +4,6 @@ numpy
 seaborn
 flask
 dvc
-ipykernel
 xgboost
-mlflow==2.2.2
+mlflow
+# mlflow==2.2.2

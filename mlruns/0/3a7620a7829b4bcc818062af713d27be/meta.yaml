@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Suraj/Desktop/Python/MLOpsProject/mlruns/0/3a7620a7829b4bcc818062af713d27be/artifacts
+end_time: 1727593602339
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3a7620a7829b4bcc818062af713d27be
+run_name: wistful-lamb-880
+run_uuid: 3a7620a7829b4bcc818062af713d27be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727593594168
+status: 3
+tags: []
+user_id: Suraj

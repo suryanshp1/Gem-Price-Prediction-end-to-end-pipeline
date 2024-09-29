@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Suraj/Desktop/Python/MLOpsProject/mlruns/0/7f6b8aaa9cec4ccea9eff2baad8297cf/artifacts
+end_time: 1727555213432
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7f6b8aaa9cec4ccea9eff2baad8297cf
+run_name: traveling-fish-276
+run_uuid: 7f6b8aaa9cec4ccea9eff2baad8297cf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727555197142
+status: 4
+tags: []
+user_id: Suraj

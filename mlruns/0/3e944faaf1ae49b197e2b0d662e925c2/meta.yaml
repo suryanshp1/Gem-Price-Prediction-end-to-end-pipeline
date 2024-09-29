@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Suraj/Desktop/Python/MLOpsProject/mlruns/0/3e944faaf1ae49b197e2b0d662e925c2/artifacts
+end_time: 1727555423834
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3e944faaf1ae49b197e2b0d662e925c2
+run_name: wise-doe-723
+run_uuid: 3e944faaf1ae49b197e2b0d662e925c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727555416441
+status: 4
+tags: []
+user_id: Suraj

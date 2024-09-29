@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Suraj/Desktop/Python/MLOpsProject/mlruns/0/e68d5d9e892f443facd094463bfd0faa/artifacts
+end_time: 1727557543459
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e68d5d9e892f443facd094463bfd0faa
+run_name: upbeat-ox-175
+run_uuid: e68d5d9e892f443facd094463bfd0faa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727557538662
+status: 4
+tags: []
+user_id: Suraj

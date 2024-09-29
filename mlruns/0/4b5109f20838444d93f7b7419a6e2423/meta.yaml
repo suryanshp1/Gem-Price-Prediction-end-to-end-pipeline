@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Suraj/Desktop/Python/MLOpsProject/mlruns/0/4b5109f20838444d93f7b7419a6e2423/artifacts
+end_time: 1727557429094
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4b5109f20838444d93f7b7419a6e2423
+run_name: clumsy-moth-17
+run_uuid: 4b5109f20838444d93f7b7419a6e2423
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727557424250
+status: 4
+tags: []
+user_id: Suraj
