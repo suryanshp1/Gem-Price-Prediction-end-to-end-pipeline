@@ -8,6 +8,7 @@ ipykernel
 xgboost
 # mlflow==2.2.2
 mlflow
+apache-airflow
 
 # dev requirements -
 

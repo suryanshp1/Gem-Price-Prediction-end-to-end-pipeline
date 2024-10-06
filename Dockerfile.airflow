@@ -1,0 +1,18 @@
+FROM python:3.8-slim-buster
+USER root
+RUN mkdir /app
+COPY . /app
+WORKDIR /app/
+ENV AIRFLOW_HOME="/app/airflow"
+ENV AIRFLOW_CORE_DAGBAG_IMPORT_TIMEOUT=1000
+ENV AIRFLOW_CORE_ENABLE_XCOM_PICKLING=True
+ENV AIRFLOW__CORE__LOAD_EXAMPLES=False
+RUN apt update -y && \
+    pip install --upgrade pip && \
+    pip3 install pendulum==2.1.2 && \
+    pip3 install -r requirements.txt && \
+    airflow db init && \
+    airflow users create -e suryanshghazipur@gmail.com -f suryansh -l pandey -p admin -r Admin -u admin && \
+    chmod 777 start.sh
+ENTRYPOINT [ "/bin/sh" ]
+CMD ["start.sh"]
