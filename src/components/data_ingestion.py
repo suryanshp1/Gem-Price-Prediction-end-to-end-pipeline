@@ -23,7 +23,7 @@ class DataIngestion:
         logging.info("Started the data ingestion.....")
         try:
             logging.info("Entered the data ingestion method or component")
-            data = pd.read_csv("C:\\Users\\Suraj\\Desktop\\Python\\MLOpsProject\\data\\train.csv")
+            data = pd.read_csv("https://raw.githubusercontent.com/suryanshp1/Gem-Price-Prediction-end-to-end-pipeline/refs/heads/main/data/train.csv")
             logging.info("Reading the dataset as dataframe")
 
             os.makedirs(os.path.dirname(self.ingestion_config.raw_data_path), exist_ok=True)
@@ -49,6 +49,6 @@ class DataIngestion:
             logging.info(e)
             raise CustomException(e, sys)
 
-if __name__ == "__main__":
-    obj = DataIngestion()
-    train_data, test_data = obj.initiate_data_ingestion()
+# if __name__ == "__main__":
+#     obj = DataIngestion()
+#     train_data, test_data = obj.initiate_data_ingestion()
