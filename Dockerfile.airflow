@@ -1,4 +1,4 @@
-FROM python:3.8-slim-buster
+FROM python:3.10-slim-buster
 USER root
 RUN mkdir /app
 COPY . /app
@@ -11,6 +11,7 @@ RUN apt update -y && \
     pip install --upgrade pip && \
     pip3 install pendulum==2.1.2 && \
     pip3 install -r requirements.txt && \
+    pip3 install apache-airflow==2.10.2 && \
     airflow db init && \
     airflow users create -e suryanshghazipur@gmail.com -f suryansh -l pandey -p admin -r Admin -u admin && \
     chmod 777 start.sh

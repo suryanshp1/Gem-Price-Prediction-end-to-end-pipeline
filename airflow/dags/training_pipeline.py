@@ -51,7 +51,8 @@ with DAG(
         # first configure azure cli in environment
         account_name = "<account-name>"
         destination_path = "<destination-path>"
-        source_path = "<source-path>"
+        source_path = "/app/artifacts"
+        # save it to the azure blob
         subprocess.run(f"az storage blob upload-batch --account-name {account_name} --destination-path {destination_path} --source {source_path}", shell=False)
 
     data_ingestion_task = PythonOperator(
